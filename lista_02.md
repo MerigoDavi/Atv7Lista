@@ -120,7 +120,7 @@ if (numero % 2 === 0) {
  Qual das seguintes alternativas é a descrição mais precisa do que o código faz?
 
 **Resposta:**<br>
-**D) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!".**
+**D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".**
 <br><br>
 
 ______
@@ -151,7 +151,12 @@ for (var i = 0; i < valorCompras.length; i++) {
 Escolha a opção que responde corretamente:
 
 **Resposta:**<br>
-**B) Compra 1 aprovada. Saldo restante: 800<br>Compra 2 aprovada com limite de crédito. Saldo restante: 700<br>Compra 3 aprovada. Saldo restante: 400<br>Compra 4 aprovada com limite de crédito. Saldo restante: 0 <br>Compra 5 negada. Saldo insuficiente e limite de crédito excedido.**
+**B) D)
+Compra 1 aprovada. Saldo restante: 800<br>
+Compra 2 aprovada. Saldo restante: 0<br>
+Compra 3 aprovada com limite de crédito. Saldo restante: 200<br>
+Compra 4 negada. Saldo insuficiente e limite de crédito excedido.<br>
+Compra 5 negada. Saldo insuficiente e limite de crédito excedido.**
 <br><br>
 ______
 
